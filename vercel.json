@@ -5,6 +5,12 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/resources/views/principal.blade.php" }
+      { "src": "/(.*)",  "dest": "/api/resources/views/principal.blade.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/index.blade.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/habibs.blade.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/mcdonalds.blade.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/opastelao.blade.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/welcome.blade.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/tiosamjapa.blade.php" }
     ]
   }
