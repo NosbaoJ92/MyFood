@@ -8,7 +8,7 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/index.php" },
+      { "src": "/(.*)",  "dest": "/api/resources/views/index.blade.php" },
       { "src": "/(.*)",  "dest": "/img/*.png" }
     ]
   }
