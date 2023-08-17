@@ -2,17 +2,9 @@
     "functions": {
       "api/resources/views/*.php": {
         "runtime": "vercel-php@0.6.0"
-      },
-      "api/public/src/img*.png": {
-        "runtime": "vercel-php@0.6.0"
-      },
-      "api/public/src/img*.webp": {
-        "runtime": "vercel-php@0.6.0"
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/resources/views/index.blade.php" },
-      { "src": "/(.*)",  "dest": "/api/public/src/img/*.png" },
-      { "src": "/(.*)",  "dest": "/api/public/src/img/*.webp" }
+      { "src": "/(.*)",  "dest": "/api/resources/views/index.blade.php" }
     ]
   }
